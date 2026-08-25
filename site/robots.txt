@@ -2,8 +2,9 @@
 User-agent: *
 Allow: /
 
-# placeholder content held back from launch — see hide_pages.py
+# placeholder content and client work-in-progress, kept out of search
 Disallow: /teams/
 Disallow: /projects/
+Disallow: /ad-review/
 
 Sitemap: https://www.tmlgarageservices.com/sitemap.xml

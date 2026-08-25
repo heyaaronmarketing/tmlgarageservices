@@ -77,17 +77,19 @@ def main():
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         f"{body}\n</urlset>\n", "utf-8")
 
-    disallow = "\n".join(f"Disallow: /{p}" for p in HIDDEN_PREFIXES)
+    # /ad-review/ is client work-in-progress, shared by link only
+    prefixes = list(HIDDEN_PREFIXES) + ["ad-review/"]
+    disallow = "\n".join(f"Disallow: /{p}" for p in prefixes)
     (SITE / "robots.txt").write_text(
         "# TML Garage Door Services\n"
         "User-agent: *\n"
         "Allow: /\n\n"
-        "# placeholder content held back from launch — see hide_pages.py\n"
+        "# placeholder content and client work-in-progress, kept out of search\n"
         f"{disallow}\n\n"
         f"Sitemap: {LIVE}/sitemap.xml\n", "utf-8")
 
     print(f"sitemap.xml: {len(rows)} URLs")
-    print(f"robots.txt: {len(HIDDEN_PREFIXES)} disallowed prefixes")
+    print(f"robots.txt: {len(prefixes)} disallowed prefixes")
 
 
 if __name__ == "__main__":
