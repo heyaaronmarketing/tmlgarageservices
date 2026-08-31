@@ -450,6 +450,12 @@ SNIPPETS = [("Services", ["Spring Replacement", "Opener Repair", "New Installati
                           "Cable & Roller Repair", "Commercial Doors", "Driveway Gates"]),
             ("Brands", ["LiftMaster", "Chamberlain", "Genie", "Craftsman"])]
 
+# Search Partners is off for the test: it adds reach from sites you cannot
+# inspect, and the test exists to produce clean data on the core keywords.
+# Turned back on for the $10,000 plan, where reach matters more than purity.
+# "Display" is absent from both, deliberately and permanently.
+NETWORKS = "Google Search" if TEST else "Google Search;Search Partners"
+
 RADIUS = "25 mi radius around Conroe, Texas"
 GEO = ["Conroe, Texas", "The Woodlands, Texas", "Spring, Texas", "Montgomery, Texas",
        "Willis, Texas", "Magnolia, Texas", "Tomball, Texas", "Porter, Texas",
@@ -568,7 +574,7 @@ def build_full_import():
         # "en", not "English" — Editor's Languages column takes ISO codes.
         row(**{"Campaign": name, "Campaign type": "Search", "Campaign status": "Paused",
                "Campaign daily budget": f"{monthly / 30.4:.2f}", "Bid strategy type": bid,
-               "Networks": "Google search;Search Partners", "Languages": "en",
+               "Networks": NETWORKS, "Languages": "en",
                "Final URL suffix": SUFFIX})
     for name, _, _ in CAMPAIGNS:
         row(**{"Campaign": name, "Location": RADIUS})
@@ -609,7 +615,7 @@ def main():
       ["Campaign", "Campaign type", "Campaign status", "Campaign daily budget", "Budget type",
        "Bid strategy type", "Networks", "Languages", "Final URL suffix"],
       [[n, "Search", "Paused", f"{m/30.4:.2f}", "Daily", b,
-        "Google search;Search Partners", "en", SUFFIX] for n, m, b in CAMPAIGNS])
+        NETWORKS, "en", SUFFIX] for n, m, b in CAMPAIGNS])
     w("02_ad_groups.csv", ["Campaign", "Ad Group", "Status", "Max CPC", "Ad Group Type"],
       [[c, g, "Enabled", f"{cpc:.2f}", "Standard"] for c, g, _, cpc, _ in active_groups()])
     w("03_keywords.csv",

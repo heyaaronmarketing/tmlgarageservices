@@ -69,6 +69,25 @@ set from Editor. See `RECOMMENDATIONS-TRIAGE.md` section 1. After declaring, use
 **Account > Get recent changes** in Editor — not a full re-download, which would
 discard unposted work — then post again.
 
+**Caution symbols on "Bid strategy" and "Include Display Network".** Two
+different things:
+
+- **Include Display Network must be unchecked.** The Networks value was written
+  as `Google search` (lowercase s); the documented value is `Google Search`.
+  An unparsed Networks value lets Editor fall back to a Search-campaign default
+  that *includes* Display, which would leak budget to banner placements. Fixed
+  in the current files. To correct campaigns already loaded: select all of them,
+  and in the settings panel untick **Display Network**.
+- **Bid strategy is almost certainly advisory** — Google nagging toward Smart
+  Bidding, the same recommendation declined in `RECOMMENDATIONS-TRIAGE.md`
+  section 2. Confirm the field reads `Manual CPC` and leave it. Hover the symbol
+  to read the text: if it says the strategy is invalid rather than
+  non-recommended, tell me and I will change the value.
+
+Search Partners is now **off for the test** (`Google Search` only) and on for the
+full plan. Partner sites cannot be inspected individually, and the test exists to
+produce clean data on the core keywords.
+
 Warnings are not errors: a yellow triangle means Editor skipped that one field
 and imported the rest of the row.
 
