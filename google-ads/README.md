@@ -8,13 +8,16 @@ in `~/Downloads` because the first copy was lost when that folder was cleared.
 | **STRATEGY.md** | The plan, the market data, and why the budget is split as it is |
 | **IMPORT-INSTRUCTIONS.md** | How to load it into Google Ads Editor |
 | **RECOMMENDATIONS-TRIAGE.md** | Google's in-account nudges: which to act on, which to decline |
-| `import/00_FULL_IMPORT.csv` | The whole account in one file — this is the one to import |
+| **TEST-PLAN.md** | The $2,000 / 60-day lead test: design, thresholds, what invalidates it |
+| `import/00_FULL_IMPORT.csv` | The full $10,000 account in one file |
+| `import-test/00_FULL_IMPORT.csv` | The $2,000 test — 4 campaigns, exact match only |
 | `image-assets/` | 11 Search image assets, cropped from the site's own photography |
 
 ## Regenerating
 
 ```
-python3 build_campaign.py       # all 13 CSVs including 00_FULL_IMPORT.csv
+python3 build_campaign.py          # the full $10,000 plan -> import/
+python3 build_campaign.py --test   # the $2,000 test        -> import-test/
 python3 build_image_assets.py   # the 11 image assets
 ```
 

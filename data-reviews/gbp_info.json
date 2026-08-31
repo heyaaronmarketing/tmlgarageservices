@@ -1,0 +1,337 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "7.3129 sec.",
+ "cost": 0.0054,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08281730-1841-0572-0000-c2b6e1f53ed1",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "7.0253 sec.",
+   "cost": 0.0054,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "business_data",
+    "google",
+    "my_business_info",
+    "live"
+   ],
+   "data": {
+    "api": "business_data",
+    "function": "my_business_info",
+    "se": "google",
+    "keyword": "TML Garage Door Services",
+    "language_code": "en",
+    "location_name": "Conroe,Texas,United States",
+    "se_type": "my_business_info",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "TML Garage Door Services",
+     "se_domain": "google.com",
+     "location_code": 1026313,
+     "language_code": "en",
+     "check_url": "https://www.google.com/maps?cid=11195507846238768374&hl=en&gl=US",
+     "datetime": "2026-08-28 17:31:05 +00:00",
+     "item_types": [
+      "google_business_info"
+     ],
+     "items_count": 1,
+     "items": [
+      {
+       "type": "google_business_info",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "position": "left",
+       "title": "TML GARAGE DOOR SERVICES",
+       "original_title": null,
+       "description": "TML Garage Door Services is a family-owned business dedicated to providing exceptional garage door services with a personal touch. Our team treats every customer like a member of the family, ensuring that your needs are met with care and attention. We specialize in installation, repair, and maintenance, using high-quality materials and expert craftsmanship. With a commitment to reliability and customer satisfaction, we pride ourselves on building lasting relationships and making your garage door experience as seamless as possible.",
+       "category": "Garage door supplier",
+       "category_ids": [
+        "garage_door_supplier"
+       ],
+       "additional_categories": null,
+       "cid": "11195507846238768374",
+       "feature_id": "0x86473b37198bc019:0x9b5e6f11df290cf6",
+       "address": "15232 Saddlewood Dr, Conroe, TX 77384",
+       "address_info": {
+        "borough": null,
+        "address": "15232 Saddlewood Dr",
+        "city": "Conroe",
+        "zip": "77384",
+        "region": "Texas",
+        "country_code": "US"
+       },
+       "place_id": "ChIJGcCLGTc7R4YR9gwp3xFvXps",
+       "phone": "+1832-887-8747",
+       "url": "https://www.tmlgarageservices.com/",
+       "contact_url": "https://www.tmlgarageservices.com/schedule-consult",
+       "contributor_url": "https://maps.google.com/maps/contrib/101974485635641680040",
+       "book_online_url": null,
+       "domain": "www.tmlgarageservices.com",
+       "logo": "https://lh4.googleusercontent.com/-jbX140qlZZg/AAAAAAAAAAI/AAAAAAAAAAA/lSIOwPmPcr8/s44-p-k-no-ns-nd/photo.jpg",
+       "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmm6pLdjvv5AHEkAVcZ82tbidr3mKhSTl76ebZqQIR0nTNaWGl_knrTPdXK7xlbP42DQlWaT9j8FlDrBTFZzFPvQFr-i5cROk3nt2tqOIqHiPejP7Um6kXfjzzxekuuZah52FU5mDx7jEs=w408-h272-k-no",
+       "total_photos": 85,
+       "snippet": "15232 Saddlewood Dr, Conroe, TX 77384",
+       "latitude": 30.232004099999997,
+       "longitude": -95.5347372,
+       "is_claimed": true,
+       "questions_and_answers_count": null,
+       "attributes": {
+        "available_attributes": {
+         "service_options": [
+          "offers_online_estimates",
+          "has_onsite_services"
+         ],
+         "crowd": [
+          "welcomes_lgbtq",
+          "is_transgender_safespace"
+         ]
+        },
+        "unavailable_attributes": null
+       },
+       "place_topics": {
+        "garage door makeover": 4,
+        "garage door assessment": 2,
+        "quiet garage door": 2,
+        "no upselling": 4,
+        "knowledgeable tech": 4,
+        "spring repair": 4,
+        "trustworthy staff": 2,
+        "noise issue": 4,
+        "honest review": 3,
+        "professional crew": 4
+       },
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 217,
+        "rating_max": null
+       },
+       "hotel_rating": null,
+       "price_level": null,
+       "rating_distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 216
+       },
+       "people_also_search": [
+        {
+         "cid": "11810485086564998439",
+         "feature_id": "0x0:0xa3e7459c91c15d27",
+         "title": "The Woodlands Garage Door Service",
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 454,
+          "rating_max": null
+         }
+        },
+        {
+         "cid": "14424577754066974563",
+         "feature_id": "0x0:0xc82e650aea29f763",
+         "title": "Veteran Garage Door Repair",
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.9,
+          "votes_count": 65,
+          "rating_max": null
+         }
+        },
+        {
+         "cid": "9295639701827816900",
+         "feature_id": "0x0:0x8100bf0ef3770dc4",
+         "title": "Overhead Door of Texas",
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 9,
+          "rating_max": null
+         }
+        },
+        {
+         "cid": "7030618934188898080",
+         "feature_id": "0x0:0x6191c6abbb76f720",
+         "title": "TML Kitchen and Bathroom Renovations",
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.8,
+          "votes_count": 113,
+          "rating_max": null
+         }
+        }
+       ],
+       "work_time": {
+        "work_hours": {
+         "timetable": {
+          "sunday": [
+           {
+            "open": {
+             "hour": 0,
+             "minute": 0
+            },
+            "close": {
+             "hour": 24,
+             "minute": 0
+            }
+           }
+          ],
+          "monday": [
+           {
+            "open": {
+             "hour": 0,
+             "minute": 0
+            },
+            "close": {
+             "hour": 24,
+             "minute": 0
+            }
+           }
+          ],
+          "tuesday": [
+           {
+            "open": {
+             "hour": 0,
+             "minute": 0
+            },
+            "close": {
+             "hour": 24,
+             "minute": 0
+            }
+           }
+          ],
+          "wednesday": [
+           {
+            "open": {
+             "hour": 0,
+             "minute": 0
+            },
+            "close": {
+             "hour": 24,
+             "minute": 0
+            }
+           }
+          ],
+          "thursday": [
+           {
+            "open": {
+             "hour": 0,
+             "minute": 0
+            },
+            "close": {
+             "hour": 24,
+             "minute": 0
+            }
+           }
+          ],
+          "friday": [
+           {
+            "open": {
+             "hour": 0,
+             "minute": 0
+            },
+            "close": {
+             "hour": 24,
+             "minute": 0
+            }
+           }
+          ],
+          "saturday": null
+         },
+         "current_status": "open"
+        }
+       },
+       "popular_times": null,
+       "local_business_links": null,
+       "is_directory_item": false,
+       "directory": null,
+       "services": [
+        {
+         "category": "Garage Door Supplier",
+         "title": "Cable Replacement",
+         "snippet": "Replacement of worn or frayed cables to maintain safety and proper functioning of your garage door system.",
+         "price": null
+        },
+        {
+         "category": "Garage Door Supplier",
+         "title": "Consultation and Estimates",
+         "snippet": "Free consultations and detailed estimates for all Garage Door services.",
+         "price": null
+        },
+        {
+         "category": "Garage Door Supplier",
+         "title": "Emergency Repair Services 24/7",
+         "snippet": "24/7 emergency repairs for garage doors to address urgent issues and restore functionality quickly.",
+         "price": null
+        },
+        {
+         "category": "Garage Door Supplier",
+         "title": "Garage Door Installation",
+         "snippet": "Expert installation of new garage doors tailored to your style and home design, ensuring a perfect fit and functionality.",
+         "price": null
+        },
+        {
+         "category": "Garage Door Supplier",
+         "title": "Garage Door Opener Services",
+         "snippet": "Installation and repair of garage door openers, including belt-driven, chain-driven, and smart options for seamless access.",
+         "price": null
+        },
+        {
+         "category": "Garage Door Supplier",
+         "title": "Garage Door Repair",
+         "snippet": "Comprehensive repair services for all garage door issues, from minor fixes to major malfunctions, available 24/7.",
+         "price": null
+        },
+        {
+         "category": "Garage Door Supplier",
+         "title": "Panel Replacement",
+         "snippet": "Replace damaged or worn panels to restore the look and function of your garage door.",
+         "price": null
+        },
+        {
+         "category": "Garage Door Supplier",
+         "title": "Remote and Accessory Sales",
+         "snippet": "We provide and install replacement remotes, keypads, and smart devices.",
+         "price": null
+        },
+        {
+         "category": "Garage Door Supplier",
+         "title": "Routine Maintenance Services",
+         "snippet": "Regular checks to keep your garage door in top shape, including lubrication, alignment, and safety inspections.",
+         "price": null
+        },
+        {
+         "category": "Garage Door Supplier",
+         "title": "Safety Sensor Installation/Repair",
+         "snippet": "Install or repair safety sensors to prevent accidents and enhance the safety of your garage door.",
+         "price": null
+        },
+        {
+         "category": "Garage Door Supplier",
+         "title": "Spring Replacement",
+         "snippet": "Safe and professional replacement of broken garage door springs to restore smooth operation and prevent accidents.",
+         "price": null
+        },
+        {
+         "category": "Garage Door Supplier",
+         "title": "Track and Roller Repair",
+         "snippet": "Repair and replacement of damaged tracks and rollers to ensure your garage door operates quietly and efficiently.",
+         "price": null
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

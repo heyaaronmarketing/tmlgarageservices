@@ -14,6 +14,7 @@ are listed in OPTIONAL_COPY rather than written into the ads.
 Usage:  python3 build_campaign.py
 """
 import csv
+import sys
 from pathlib import Path
 
 OUT = Path(__file__).parent / "import"
@@ -37,6 +38,36 @@ CAMPAIGNS = [
     ("TML | Search | Competitor",             400, "Manual CPC"),
     ("TML | Search | Brand",                  200, "Manual CPC"),
 ]
+
+# ------------------------------------------------------------- $2,000 test
+# Run with --test. Not the $10,000 plan scaled by 80% — a different shape.
+#
+# Two decisions drive it:
+#
+#   * EXACT MATCH ONLY. At 25 miles, exact tops out around $3,136/mo of
+#     capacity, so $2,000 takes ~64% of it — high impression share on the
+#     keywords that matter, instead of a thin smear across phrase traffic. It
+#     also removes the daily search-term babysitting that phrase demands. The
+#     question this test answers is "do these leads exist and convert", not
+#     "can we win a loose auction".
+#   * FOUR CAMPAIGNS, NOT SIX. Commercial and Competitor are excluded.
+#     Commercial leads cost $300-600 and carry a 45-90 day sales cycle — it
+#     cannot produce a readable result in 60 days at any budget, let alone this
+#     one. Competitor is a nice-to-have, not a lead test.
+TEST_BUDGETS = {
+    "TML | Search | Head Terms":            1000,
+    "TML | Search | Components & Symptoms":  600,
+    "TML | Search | Install & Replace":      300,
+    "TML | Search | Brand":                  100,
+}
+TEST_EXCLUDE = ("TML | Search | Commercial & Gates", "TML | Search | Competitor")
+
+TEST = "--test" in sys.argv
+if TEST:
+    OUT = Path(__file__).parent / "import-test"
+    OUT.mkdir(exist_ok=True)
+    CAMPAIGNS = [(n, TEST_BUDGETS[n], b) for n, _, b in CAMPAIGNS if n in TEST_BUDGETS]
+
 
 URLS = {
     "generic":    f"{SITE}/services",
@@ -420,9 +451,11 @@ def build_keywords():
     already phrase to begin with."""
     out, seen = [], set()
     for camp, grp, url, cpc, terms in AD_GROUPS:
+        if TEST and camp in TEST_EXCLUDE:
+            continue
         for kw, mt in terms:
             variants = [(mt, 1.0)]
-            if mt == "Exact" and camp not in TIGHT:
+            if not TEST and mt == "Exact" and camp not in TIGHT:
                 variants.append(("Phrase", 0.8))
             for m, mult in variants:
                 if (camp, kw, m) in seen:
@@ -430,6 +463,10 @@ def build_keywords():
                 seen.add((camp, kw, m))
                 out.append([camp, grp, kw, m, f"{cpc * mult:.2f}", "Enabled", URLS[url]])
     return out
+
+
+def active_groups():
+    return [g for g in AD_GROUPS if not (TEST and g[0] in TEST_EXCLUDE)]
 
 
 def rsa_fields(grp):
@@ -465,7 +502,7 @@ def validate(keywords):
         if key in seen:
             raise SystemExit(f"duplicate keyword {key}")
         seen.add(key)
-    groups = {(c, g) for c, g, _, _, _ in AD_GROUPS}
+    groups = {(c, g) for c, g, _, _, _ in active_groups()}
     for c, g in groups:
         if g not in ADS:
             raise SystemExit(f"ad group with no ad: {c} / {g}")
@@ -508,7 +545,7 @@ def build_full_import():
         row(**{"Campaign": name, "Location": RADIUS})
         for g in GEO:
             row(**{"Campaign": name, "Location": g})
-    for camp, grp, _, cpc, _ in AD_GROUPS:
+    for camp, grp, _, cpc, _ in active_groups():
         row(**{"Campaign": camp, "Ad group": grp, "Ad group status": "Enabled",
                "Max CPC": f"{cpc:.2f}"})
     for camp, _, _ in CAMPAIGNS:
@@ -522,7 +559,7 @@ def build_full_import():
     for camp, grp, kw, mt, cpc, status, url in build_keywords():
         row(**{"Campaign": camp, "Ad group": grp, "Keyword": kw, "Criterion type": mt,
                "Max CPC": cpc, "Status": status, "Final URL": url})
-    for camp, grp, _, _, _ in AD_GROUPS:
+    for camp, grp, _, _, _ in active_groups():
         H, D, u, p1, p2 = rsa_fields(grp)
         d = {"Campaign": camp, "Ad group": grp, "Ad type": "Responsive search ad",
              "Status": "Enabled", "Path 1": p1, "Path 2": p2, "Final URL": URLS[u]}
@@ -545,7 +582,7 @@ def main():
       [[n, "Search", "Paused", f"{m/30.4:.2f}", "Daily", b,
         "Google search;Search Partners", "en", SUFFIX] for n, m, b in CAMPAIGNS])
     w("02_ad_groups.csv", ["Campaign", "Ad Group", "Status", "Max CPC", "Ad Group Type"],
-      [[c, g, "Enabled", f"{cpc:.2f}", "Standard"] for c, g, _, cpc, _ in AD_GROUPS])
+      [[c, g, "Enabled", f"{cpc:.2f}", "Standard"] for c, g, _, cpc, _ in active_groups()])
     w("03_keywords.csv",
       ["Campaign", "Ad Group", "Keyword", "Criterion Type", "Max CPC", "Status", "Final URL"],
       keywords)
@@ -562,7 +599,7 @@ def main():
            + [f"Description {i}" for i in range(1, 5)]
            + ["Path 1", "Path 2", "Final URL"])
     ads = []
-    for camp, grp, _, _, _ in AD_GROUPS:
+    for camp, grp, _, _, _ in active_groups():
         H, D, u, p1, p2 = rsa_fields(grp)
         ads.append([camp, grp, "Responsive search ad", "Enabled"] + H + D + [p1, p2, URLS[u]])
     w("06_responsive_search_ads.csv", hdr, ads)
@@ -587,7 +624,12 @@ def main():
     print(f"\n{len(CAMPAIGNS)} campaigns · {len(AD_GROUPS)} ad groups · {len(keywords)} keywords "
           f"· {sum(len(v) for v in NEGATIVES.values())} shared negatives · {len(ads)} RSAs")
     print(f"00_FULL_IMPORT.csv: {n} rows — the whole account in one file")
-    print(f"Search only — Local Services Ads excluded. Total ${monthly:,}/mo")
+    if TEST:
+        print(f"TEST MODE — exact match only, {len(CAMPAIGNS)} campaigns, "
+              f"${monthly:,}/mo (${monthly/30.4:.2f}/day)")
+        print("Run for 60 days before judging it. See TEST-PLAN.md")
+    else:
+        print(f"Search only — Local Services Ads excluded. Total ${monthly:,}/mo")
 
 
 if __name__ == "__main__":
