@@ -1,0 +1,1256 @@
+{
+ "Conroe": {
+  "24 hour garage door repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "after hours garage door repair": {
+   "v": null,
+   "cpc": null,
+   "comp": null
+  },
+  "automatic gate installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "automatic gate repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "broken garage door spring": {
+   "v": 10,
+   "cpc": null,
+   "comp": 29
+  },
+  "carriage garage doors": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "chamberlain garage door opener repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 12
+  },
+  "commercial door repair near me": {
+   "v": 10,
+   "cpc": null,
+   "comp": 100
+  },
+  "commercial garage door installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "commercial garage door repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 40
+  },
+  "commercial garage door repair near me": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "commercial gate repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "commercial overhead door repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 40
+  },
+  "craftsman garage door opener repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 12
+  },
+  "custom garage doors": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "double garage door replacement": {
+   "v": null,
+   "cpc": null,
+   "comp": null
+  },
+  "driveway gate installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": 50
+  },
+  "driveway gate repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 36
+  },
+  "electric gate repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "elite garage door repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 100
+  },
+  "fix garage door sensor": {
+   "v": 20,
+   "cpc": null,
+   "comp": 9
+  },
+  "garage door belt replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door bottom seal replacement": {
+   "v": 10,
+   "cpc": 0.36,
+   "comp": 67
+  },
+  "garage door cable off drum": {
+   "v": null,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door cable repair": {
+   "v": 10,
+   "cpc": 11.15,
+   "comp": 71
+  },
+  "garage door cable replacement": {
+   "v": 10,
+   "cpc": 21.48,
+   "comp": 83
+  },
+  "garage door came off track": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door conroe": {
+   "v": 20,
+   "cpc": 17.07,
+   "comp": 83
+  },
+  "garage door crooked": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door drive belt replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door hinge repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door hinge replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door inspection": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door installation": {
+   "v": 50,
+   "cpc": 34.49,
+   "comp": 19
+  },
+  "garage door installation near me": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "garage door installers near me": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "garage door lubrication service": {
+   "v": null,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door maintenance": {
+   "v": 10,
+   "cpc": null,
+   "comp": 36
+  },
+  "garage door making noise": {
+   "v": 10,
+   "cpc": null,
+   "comp": 10
+  },
+  "garage door motor replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": 100
+  },
+  "garage door not working": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door off track": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door off track repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "garage door opener installation": {
+   "v": 20,
+   "cpc": 5.39,
+   "comp": 85
+  },
+  "garage door opener not working": {
+   "v": 10,
+   "cpc": 17.19,
+   "comp": 82
+  },
+  "garage door opener repair": {
+   "v": 140,
+   "cpc": 1.42,
+   "comp": 18
+  },
+  "garage door opener repair near me": {
+   "v": 10,
+   "cpc": 47.14,
+   "comp": 100
+  },
+  "garage door opener replacement": {
+   "v": 10,
+   "cpc": 6.1,
+   "comp": 89
+  },
+  "garage door opener wont work": {
+   "v": 10,
+   "cpc": null,
+   "comp": 71
+  },
+  "garage door panel replacement": {
+   "v": 10,
+   "cpc": 5.92,
+   "comp": 86
+  },
+  "garage door repair": {
+   "v": 170,
+   "cpc": 19.28,
+   "comp": 40
+  },
+  "garage door repair conroe": {
+   "v": 70,
+   "cpc": 40.3,
+   "comp": 44
+  },
+  "garage door repair conroe tx": {
+   "v": 30,
+   "cpc": 48.55,
+   "comp": 97
+  },
+  "garage door repair magnolia tx": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door repair montgomery tx": {
+   "v": 10,
+   "cpc": 86.81,
+   "comp": 100
+  },
+  "garage door repair near me": {
+   "v": 170,
+   "cpc": 28.83,
+   "comp": 83
+  },
+  "garage door repair open now": {
+   "v": null,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door repair service": {
+   "v": 20,
+   "cpc": null,
+   "comp": 9
+  },
+  "garage door repair spring tx": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door repair the woodlands": {
+   "v": 30,
+   "cpc": 54.44,
+   "comp": 47
+  },
+  "garage door repair the woodlands tx": {
+   "v": 10,
+   "cpc": 31.14,
+   "comp": 82
+  },
+  "garage door repair today": {
+   "v": null,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door repair tomball tx": {
+   "v": 10,
+   "cpc": 131.24,
+   "comp": 100
+  },
+  "garage door repair willis tx": {
+   "v": 10,
+   "cpc": 20.12,
+   "comp": 93
+  },
+  "garage door replacement": {
+   "v": 30,
+   "cpc": 5.9,
+   "comp": 41
+  },
+  "garage door replacement cost": {
+   "v": 10,
+   "cpc": 2.19,
+   "comp": 53
+  },
+  "garage door roller replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": 29
+  },
+  "garage door safety inspection": {
+   "v": null,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door safety sensor replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "garage door sensor repair": {
+   "v": 20,
+   "cpc": null,
+   "comp": 9
+  },
+  "garage door sensor replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "garage door service": {
+   "v": 20,
+   "cpc": 30.36,
+   "comp": 9
+  },
+  "garage door service master": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door spring broke": {
+   "v": 10,
+   "cpc": null,
+   "comp": 29
+  },
+  "garage door spring repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 19
+  },
+  "garage door spring repair near me": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door spring replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": 19
+  },
+  "garage door stuck": {
+   "v": 10,
+   "cpc": 26.69,
+   "comp": 86
+  },
+  "garage door stuck open": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door torsion spring replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": 52
+  },
+  "garage door track repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 43
+  },
+  "garage door track replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door tune up": {
+   "v": 10,
+   "cpc": null,
+   "comp": 100
+  },
+  "garage door tune up near me": {
+   "v": 10,
+   "cpc": null,
+   "comp": 100
+  },
+  "garage door wire replacement": {
+   "v": 10,
+   "cpc": 21.48,
+   "comp": 83
+  },
+  "garage door won't close": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door won't open": {
+   "v": 10,
+   "cpc": null,
+   "comp": 62
+  },
+  "garage door wont close": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door wont open": {
+   "v": 10,
+   "cpc": null,
+   "comp": 62
+  },
+  "garage torsion spring replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": 52
+  },
+  "gate motor repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "gate opener repair": {
+   "v": 10,
+   "cpc": 15.13,
+   "comp": 50
+  },
+  "gate operator repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "genie garage door opener repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 11
+  },
+  "glass garage door installation": {
+   "v": 0,
+   "cpc": null,
+   "comp": null
+  },
+  "insulated garage door": {
+   "v": 70,
+   "cpc": 1.25,
+   "comp": 100
+  },
+  "insulated garage door installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "liftmaster dealer near me": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "liftmaster garage door opener installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "loading dock door repair": {
+   "v": 0,
+   "cpc": null,
+   "comp": null
+  },
+  "modern garage doors": {
+   "v": 10,
+   "cpc": 1.35,
+   "comp": 93
+  },
+  "new garage door": {
+   "v": 10,
+   "cpc": null,
+   "comp": 71
+  },
+  "new garage door cost": {
+   "v": 10,
+   "cpc": null,
+   "comp": 74
+  },
+  "new garage door installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": 67
+  },
+  "new garage door opener": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "overhead door cable replacement": {
+   "v": 10,
+   "cpc": 21.48,
+   "comp": 83
+  },
+  "overhead door repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "overhead door torsion spring replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": 52
+  },
+  "pro garage door repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "replace garage door": {
+   "v": 30,
+   "cpc": 5.9,
+   "comp": 41
+  },
+  "replace garage door lock": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "roll up door repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "rolling steel door repair": {
+   "v": 0,
+   "cpc": null,
+   "comp": null
+  },
+  "same day garage door repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 66
+  },
+  "smart garage door opener installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "speedy garage door repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 100
+  },
+  "steel garage door installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "tml garage door": {
+   "v": null,
+   "cpc": null,
+   "comp": null
+  },
+  "tml garage door conroe": {
+   "v": null,
+   "cpc": null,
+   "comp": null
+  },
+  "tml garage door services": {
+   "v": 10,
+   "cpc": null,
+   "comp": 25
+  },
+  "tml garage services": {
+   "v": 10,
+   "cpc": null,
+   "comp": 39
+  },
+  "wall mount garage door opener installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "warehouse door repair": {
+   "v": 0,
+   "cpc": null,
+   "comp": null
+  },
+  "weekend garage door repair": {
+   "v": 0,
+   "cpc": null,
+   "comp": null
+  },
+  "wood garage door installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  }
+ },
+ "Houston": {
+  "24 hour garage door repair": {
+   "v": 10,
+   "cpc": 69.99,
+   "comp": 14
+  },
+  "after hours garage door repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "automatic gate installation": {
+   "v": 30,
+   "cpc": null,
+   "comp": 36
+  },
+  "automatic gate repair": {
+   "v": 30,
+   "cpc": 8.31,
+   "comp": 47
+  },
+  "broken garage door spring": {
+   "v": 110,
+   "cpc": 49.99,
+   "comp": 67
+  },
+  "carriage garage doors": {
+   "v": 30,
+   "cpc": 3.15,
+   "comp": 100
+  },
+  "chamberlain garage door opener repair": {
+   "v": 110,
+   "cpc": null,
+   "comp": 15
+  },
+  "commercial door repair near me": {
+   "v": 30,
+   "cpc": 55.71,
+   "comp": 45
+  },
+  "commercial garage door installation": {
+   "v": 20,
+   "cpc": null,
+   "comp": 3
+  },
+  "commercial garage door repair": {
+   "v": 70,
+   "cpc": 34.55,
+   "comp": 46
+  },
+  "commercial garage door repair near me": {
+   "v": 40,
+   "cpc": 7.5,
+   "comp": 15
+  },
+  "commercial gate repair": {
+   "v": 40,
+   "cpc": 28.68,
+   "comp": 86
+  },
+  "commercial overhead door repair": {
+   "v": 70,
+   "cpc": 34.55,
+   "comp": 46
+  },
+  "craftsman garage door opener repair": {
+   "v": 70,
+   "cpc": null,
+   "comp": 7
+  },
+  "custom garage doors": {
+   "v": 40,
+   "cpc": 2.79,
+   "comp": 92
+  },
+  "double garage door replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "driveway gate installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": 46
+  },
+  "driveway gate repair": {
+   "v": 50,
+   "cpc": 11.83,
+   "comp": 48
+  },
+  "electric gate repair": {
+   "v": 40,
+   "cpc": 47.27,
+   "comp": 38
+  },
+  "elite garage door repair": {
+   "v": 20,
+   "cpc": 6.21,
+   "comp": 90
+  },
+  "fix garage door sensor": {
+   "v": 210,
+   "cpc": 2.35,
+   "comp": 15
+  },
+  "garage door belt replacement": {
+   "v": 20,
+   "cpc": 4.47,
+   "comp": 81
+  },
+  "garage door bottom seal replacement": {
+   "v": 50,
+   "cpc": 1.58,
+   "comp": 100
+  },
+  "garage door cable off drum": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door cable repair": {
+   "v": 40,
+   "cpc": null,
+   "comp": 16
+  },
+  "garage door cable replacement": {
+   "v": 40,
+   "cpc": 1.4,
+   "comp": 84
+  },
+  "garage door came off track": {
+   "v": 10,
+   "cpc": null,
+   "comp": 61
+  },
+  "garage door conroe": {
+   "v": 10,
+   "cpc": 97.22,
+   "comp": 79
+  },
+  "garage door crooked": {
+   "v": 10,
+   "cpc": null,
+   "comp": 11
+  },
+  "garage door drive belt replacement": {
+   "v": 20,
+   "cpc": 4.47,
+   "comp": 81
+  },
+  "garage door hinge repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "garage door hinge replacement": {
+   "v": 20,
+   "cpc": 0.28,
+   "comp": 100
+  },
+  "garage door inspection": {
+   "v": 10,
+   "cpc": null,
+   "comp": 14
+  },
+  "garage door installation": {
+   "v": 390,
+   "cpc": 29.47,
+   "comp": 27
+  },
+  "garage door installation near me": {
+   "v": 480,
+   "cpc": 4.18,
+   "comp": 16
+  },
+  "garage door installers near me": {
+   "v": 480,
+   "cpc": 4.18,
+   "comp": 16
+  },
+  "garage door lubrication service": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "garage door maintenance": {
+   "v": 70,
+   "cpc": 35.76,
+   "comp": 59
+  },
+  "garage door making noise": {
+   "v": 10,
+   "cpc": null,
+   "comp": 57
+  },
+  "garage door motor replacement": {
+   "v": 30,
+   "cpc": 9.32,
+   "comp": 84
+  },
+  "garage door not working": {
+   "v": 10,
+   "cpc": null,
+   "comp": 77
+  },
+  "garage door off track": {
+   "v": 40,
+   "cpc": null,
+   "comp": 51
+  },
+  "garage door off track repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "garage door opener installation": {
+   "v": 390,
+   "cpc": 14.65,
+   "comp": 48
+  },
+  "garage door opener not working": {
+   "v": 30,
+   "cpc": 16.36,
+   "comp": 71
+  },
+  "garage door opener repair": {
+   "v": 1900,
+   "cpc": 33.7,
+   "comp": 13
+  },
+  "garage door opener repair near me": {
+   "v": 50,
+   "cpc": 50.87,
+   "comp": 96
+  },
+  "garage door opener replacement": {
+   "v": 90,
+   "cpc": 6.82,
+   "comp": 79
+  },
+  "garage door opener wont work": {
+   "v": 10,
+   "cpc": null,
+   "comp": 29
+  },
+  "garage door panel replacement": {
+   "v": 110,
+   "cpc": 8.44,
+   "comp": 89
+  },
+  "garage door repair": {
+   "v": 2400,
+   "cpc": 40.68,
+   "comp": 49
+  },
+  "garage door repair conroe": {
+   "v": 20,
+   "cpc": 41.17,
+   "comp": 41
+  },
+  "garage door repair conroe tx": {
+   "v": 10,
+   "cpc": null,
+   "comp": 63
+  },
+  "garage door repair magnolia tx": {
+   "v": 10,
+   "cpc": 35.07,
+   "comp": 58
+  },
+  "garage door repair montgomery tx": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "garage door repair near me": {
+   "v": 2900,
+   "cpc": 46.4,
+   "comp": 47
+  },
+  "garage door repair open now": {
+   "v": 10,
+   "cpc": null,
+   "comp": 57
+  },
+  "garage door repair service": {
+   "v": 210,
+   "cpc": 41.87,
+   "comp": 26
+  },
+  "garage door repair spring tx": {
+   "v": 90,
+   "cpc": 27.18,
+   "comp": 59
+  },
+  "garage door repair the woodlands": {
+   "v": 30,
+   "cpc": 6.54,
+   "comp": 44
+  },
+  "garage door repair the woodlands tx": {
+   "v": 10,
+   "cpc": null,
+   "comp": 44
+  },
+  "garage door repair today": {
+   "v": 10,
+   "cpc": null,
+   "comp": 100
+  },
+  "garage door repair tomball tx": {
+   "v": 30,
+   "cpc": 22.04,
+   "comp": 100
+  },
+  "garage door repair willis tx": {
+   "v": 10,
+   "cpc": 43.97,
+   "comp": 74
+  },
+  "garage door replacement": {
+   "v": 210,
+   "cpc": 18.7,
+   "comp": 34
+  },
+  "garage door replacement cost": {
+   "v": 210,
+   "cpc": 16.8,
+   "comp": 43
+  },
+  "garage door roller replacement": {
+   "v": 70,
+   "cpc": 6.92,
+   "comp": 82
+  },
+  "garage door safety inspection": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "garage door safety sensor replacement": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "garage door sensor repair": {
+   "v": 210,
+   "cpc": 2.35,
+   "comp": 15
+  },
+  "garage door sensor replacement": {
+   "v": 50,
+   "cpc": 0.57,
+   "comp": 74
+  },
+  "garage door service": {
+   "v": 170,
+   "cpc": 48.07,
+   "comp": 27
+  },
+  "garage door service master": {
+   "v": 70,
+   "cpc": 5.09,
+   "comp": 20
+  },
+  "garage door spring broke": {
+   "v": 110,
+   "cpc": 49.99,
+   "comp": 67
+  },
+  "garage door spring repair": {
+   "v": 260,
+   "cpc": 16.72,
+   "comp": 14
+  },
+  "garage door spring repair near me": {
+   "v": 40,
+   "cpc": null,
+   "comp": 12
+  },
+  "garage door spring replacement": {
+   "v": 260,
+   "cpc": 16.72,
+   "comp": 14
+  },
+  "garage door stuck": {
+   "v": 10,
+   "cpc": null,
+   "comp": 48
+  },
+  "garage door stuck open": {
+   "v": 10,
+   "cpc": null,
+   "comp": 74
+  },
+  "garage door torsion spring replacement": {
+   "v": 70,
+   "cpc": 4.32,
+   "comp": 44
+  },
+  "garage door track repair": {
+   "v": 30,
+   "cpc": null,
+   "comp": 2
+  },
+  "garage door track replacement": {
+   "v": 20,
+   "cpc": 1.67,
+   "comp": 58
+  },
+  "garage door tune up": {
+   "v": 40,
+   "cpc": 55.95,
+   "comp": 79
+  },
+  "garage door tune up near me": {
+   "v": 10,
+   "cpc": 41.89,
+   "comp": 92
+  },
+  "garage door wire replacement": {
+   "v": 40,
+   "cpc": 1.4,
+   "comp": 84
+  },
+  "garage door won't close": {
+   "v": 30,
+   "cpc": 11.14,
+   "comp": 70
+  },
+  "garage door won't open": {
+   "v": 30,
+   "cpc": 61.29,
+   "comp": 67
+  },
+  "garage door wont close": {
+   "v": 30,
+   "cpc": 11.14,
+   "comp": 70
+  },
+  "garage door wont open": {
+   "v": 30,
+   "cpc": 61.29,
+   "comp": 67
+  },
+  "garage torsion spring replacement": {
+   "v": 70,
+   "cpc": 4.32,
+   "comp": 44
+  },
+  "gate motor repair": {
+   "v": 20,
+   "cpc": 1.94,
+   "comp": 17
+  },
+  "gate opener repair": {
+   "v": 70,
+   "cpc": 26.16,
+   "comp": 23
+  },
+  "gate operator repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": 16
+  },
+  "genie garage door opener repair": {
+   "v": 110,
+   "cpc": null,
+   "comp": 5
+  },
+  "glass garage door installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "insulated garage door": {
+   "v": 590,
+   "cpc": 1.84,
+   "comp": 100
+  },
+  "insulated garage door installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "liftmaster dealer near me": {
+   "v": 10,
+   "cpc": 25.05,
+   "comp": 100
+  },
+  "liftmaster garage door opener installation": {
+   "v": 140,
+   "cpc": null,
+   "comp": 1
+  },
+  "loading dock door repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "modern garage doors": {
+   "v": 110,
+   "cpc": 1.6,
+   "comp": 100
+  },
+  "new garage door": {
+   "v": 70,
+   "cpc": 6.74,
+   "comp": 100
+  },
+  "new garage door cost": {
+   "v": 70,
+   "cpc": 11.17,
+   "comp": 93
+  },
+  "new garage door installation": {
+   "v": 10,
+   "cpc": 52.97,
+   "comp": 45
+  },
+  "new garage door opener": {
+   "v": 20,
+   "cpc": 11.81,
+   "comp": 84
+  },
+  "overhead door cable replacement": {
+   "v": 40,
+   "cpc": 1.4,
+   "comp": 84
+  },
+  "overhead door repair": {
+   "v": 70,
+   "cpc": 44.16,
+   "comp": 20
+  },
+  "overhead door torsion spring replacement": {
+   "v": 70,
+   "cpc": 4.32,
+   "comp": 44
+  },
+  "pro garage door repair": {
+   "v": 70,
+   "cpc": 0.48,
+   "comp": 4
+  },
+  "replace garage door": {
+   "v": 210,
+   "cpc": 18.7,
+   "comp": 34
+  },
+  "replace garage door lock": {
+   "v": 20,
+   "cpc": 0.3,
+   "comp": 91
+  },
+  "roll up door repair": {
+   "v": 10,
+   "cpc": 156.85,
+   "comp": 71
+  },
+  "rolling steel door repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "same day garage door repair": {
+   "v": 70,
+   "cpc": 15.73,
+   "comp": 49
+  },
+  "smart garage door opener installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": 1
+  },
+  "speedy garage door repair": {
+   "v": 40,
+   "cpc": 1.62,
+   "comp": 59
+  },
+  "steel garage door installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  },
+  "tml garage door": {
+   "v": null,
+   "cpc": null,
+   "comp": null
+  },
+  "tml garage door conroe": {
+   "v": null,
+   "cpc": null,
+   "comp": null
+  },
+  "tml garage door services": {
+   "v": 10,
+   "cpc": 46.88,
+   "comp": 49
+  },
+  "tml garage services": {
+   "v": 10,
+   "cpc": null,
+   "comp": 54
+  },
+  "wall mount garage door opener installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "warehouse door repair": {
+   "v": 10,
+   "cpc": 71.99,
+   "comp": 100
+  },
+  "weekend garage door repair": {
+   "v": 10,
+   "cpc": null,
+   "comp": null
+  },
+  "wood garage door installation": {
+   "v": 10,
+   "cpc": null,
+   "comp": 0
+  }
+ }
+}
