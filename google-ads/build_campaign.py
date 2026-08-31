@@ -275,6 +275,35 @@ CROSS_NEGATIVES = {
         ("bottom seal", "Phrase")],
 }
 
+# Commercial and gate work must never be paid for out of a residential
+# campaign. In the $2,000 test that traffic is pure waste — Commercial & Gates
+# is not running at all. In the full plan it belongs in the campaign built for
+# it, where the bid ($40) and the landing page match the job value.
+#
+# "overhead door" is deliberately NOT here: Components legitimately holds
+# "overhead door torsion spring replacement" and "overhead door cable
+# replacement". Plenty of Texas homeowners call a residential door an overhead
+# door, and blocking the phrase would cost real repair work.
+COMMERCIAL_NEGATIVES = [
+    "commercial", "industrial", "warehouse", "loading dock", "dock door",
+    "dock leveler", "rolling steel", "roll up door", "rollup door",
+    "roll-up door", "storefront", "shop door", "bay door", "high speed door",
+    "fire door", "sectional steel", "apartment complex", "strip mall",
+    "hangar", "business park", "property manager", "facility",
+    "gate", "gates", "gate opener", "gate operator", "driveway gate",
+    "automatic gate", "electric gate", "sliding gate", "swing gate",
+]
+RESIDENTIAL_CAMPAIGNS = (
+    "TML | Search | Head Terms",
+    "TML | Search | Components & Symptoms",
+    "TML | Search | Install & Replace",
+)
+
+for _c in RESIDENTIAL_CAMPAIGNS:
+    CROSS_NEGATIVES.setdefault(_c, [])
+    CROSS_NEGATIVES[_c] += [(t, "Phrase") for t in COMMERCIAL_NEGATIVES]
+
+
 # --------------------------------------------------------------- ad creative
 COMMON_H = [
     "Same-Day Garage Door Repair", "Conroe & The Woodlands", "Call (832) 887-8747",
@@ -621,7 +650,7 @@ def main():
       [[t, r] for t, r in OPTIONAL_COPY])
 
     n = build_full_import()
-    print(f"\n{len(CAMPAIGNS)} campaigns · {len(AD_GROUPS)} ad groups · {len(keywords)} keywords "
+    print(f"\n{len(CAMPAIGNS)} campaigns · {len(active_groups())} ad groups · {len(keywords)} keywords "
           f"· {sum(len(v) for v in NEGATIVES.values())} shared negatives · {len(ads)} RSAs")
     print(f"00_FULL_IMPORT.csv: {n} rows — the whole account in one file")
     if TEST:

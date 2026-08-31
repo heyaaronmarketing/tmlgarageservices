@@ -41,6 +41,19 @@ test has ended. Competitor traffic is a nice-to-have, not a lead test.
 
 Both stay in the main build, ready for the scale-up.
 
+**Commercial traffic is now blocked from the residential campaigns.** Head
+Terms, Components & Symptoms and Install & Replace each carry a set of
+commercial and gate negatives — `commercial`, `warehouse`, `loading dock`,
+`rolling steel`, `roll up door`, `storefront`, `gate`, `gate opener`,
+`driveway gate` and the rest. With Commercial & Gates switched off for the test,
+any such query reaching a residential ad is money spent on work this test is not
+measuring.
+
+One phrase deliberately left out: **`overhead door`**. Components legitimately
+holds "overhead door torsion spring replacement" and "overhead door cable
+replacement", and plenty of Texas homeowners call a residential door an overhead
+door. Blocking it would cost real repair work.
+
 ---
 
 ## The allocation

@@ -207,6 +207,17 @@ Deliberately **not** negatives: `free` (blocks "free estimate"), `reviews`
 (blocks comparison shoppers), `license` (blocks "licensed garage door repair"),
 and `spring` / `houston` / `cypress` — real places served.
 
+**Commercial and gate work is fenced out of the residential campaigns.** Head
+Terms, Components & Symptoms and Install & Replace carry commercial negatives —
+`commercial`, `warehouse`, `loading dock`, `rolling steel`, `roll up door`,
+`storefront`, `gate`, `driveway gate` and similar — so those searches land in
+Commercial & Gates, where the $40 bid and the matching landing page belong,
+rather than being bought at a residential bid against a residential page.
+
+`overhead door` is deliberately **not** among them: Components holds "overhead
+door torsion spring replacement" and "overhead door cable replacement", and many
+Texas homeowners call a residential door an overhead door.
+
 ### Targeting
 
 One **25-mile radius around Conroe**, plus the named towns as fallback. A radius
